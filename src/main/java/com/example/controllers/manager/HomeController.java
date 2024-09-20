@@ -1,4 +1,4 @@
-package org.example.com.controllers.manager;
+package com.example.controllers.manager;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -6,7 +6,7 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.com.utils.Constant;
+import com.example.utils.Constant;
 
 import java.io.IOException;
 

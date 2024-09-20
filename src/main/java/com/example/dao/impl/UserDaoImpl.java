@@ -1,8 +1,8 @@
-package org.example.com.dao.impl;
+package com.example.dao.impl;
 
-import org.example.com.dao.IUserDao;
-import org.example.com.database.DBConnect;
-import org.example.com.models.User;
+import com.example.dao.IUserDao;
+import com.example.database.DBConnect;
+import com.example.models.User;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

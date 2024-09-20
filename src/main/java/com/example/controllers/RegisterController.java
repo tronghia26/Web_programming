@@ -1,11 +1,11 @@
-package org.example.com.controllers;
+package com.example.controllers;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
-import org.example.com.services.IUserService;
-import org.example.com.services.impl.UserServiceImpl;
-import org.example.com.utils.Constant;
+import com.example.services.IUserService;
+import com.example.services.impl.UserServiceImpl;
+import com.example.utils.Constant;
 
 import java.io.IOException;
 

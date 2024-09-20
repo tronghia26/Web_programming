@@ -1,4 +1,4 @@
-package org.example.com.utils;
+package com.example.utils;
 
 public class Constant {
     public static final String SESSION_USERNAME = "username";

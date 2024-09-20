@@ -1,4 +1,4 @@
-package org.example.com.database;
+package com.example.database;
 
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;

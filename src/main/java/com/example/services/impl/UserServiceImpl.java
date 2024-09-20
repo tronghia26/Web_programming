@@ -1,12 +1,12 @@
-package org.example.com.services.impl;
+package com.example.services.impl;
 
-import org.example.com.dao.IUserDao;
-import org.example.com.dao.impl.UserDaoImpl;
-import org.example.com.models.User;
-import org.example.com.services.IUserService;
+import com.example.dao.IUserDao;
+import com.example.dao.impl.UserDaoImpl;
+import com.example.models.User;
+import com.example.services.IUserService;
 
-import static org.example.com.utils.PasswordUtil.encodePassword;
-import static org.example.com.utils.PasswordUtil.matchPassword;
+import static com.example.utils.PasswordUtil.encodePassword;
+import static com.example.utils.PasswordUtil.matchPassword;
 
 public class UserServiceImpl implements IUserService {
 

@@ -1,4 +1,4 @@
-package org.example.com.controllers.admin;
+package com.example.controllers.user;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -6,15 +6,17 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import org.example.com.utils.Constant;
+import com.example.utils.Constant;
 
 import java.io.IOException;
 
-@WebServlet("/admin/home")
+@WebServlet("/home")
 public class HomeController extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher(Constant.Path.ADMIN_HOME);
+    protected void doGet(
+            HttpServletRequest req, HttpServletResponse resp
+    ) throws ServletException, IOException {
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher(Constant.Path.USER_HOME);
         requestDispatcher.forward(req, resp);
     }
 }
